@@ -1,0 +1,6 @@
+
+name: ATMLogic
+description: As simulator for calculate how many money bills is necessary to realize an cash withdraw
+core: 8.x
+package: Custom
+type: module
