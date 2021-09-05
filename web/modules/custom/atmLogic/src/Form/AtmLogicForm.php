@@ -20,7 +20,7 @@ class AtmLogicForm extends FormBase {
      */
     public function buildForm(array $form, FormStateInterface $form_state) {
         $form['cash'] = array(
-            '#type' => 'textfield',
+            '#type' => 'number',
             '#title' => $this->t('Valor:'),
             '#required' => TRUE,
         );
